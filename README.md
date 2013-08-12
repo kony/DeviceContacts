@@ -12,3 +12,6 @@ This Application will showcase the following features of Device Contact APIs
 * Find a contact
 * Delete a contact
 * Get contact details
+
+# Supported platforms:
+iPhone, iPad, Android, Android tablet
