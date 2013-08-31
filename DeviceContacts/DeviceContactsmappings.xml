@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application name="DeviceContacts" id="DeviceContacts">
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="form" id="frmContact" displayname="Form"/>
+    <container type="form" id="frmDetail" displayname="Form"/>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <container type="dialog" id="hdrOne" displayname="Popup"/>
+    <container type="dialog" id="ftrOne" displayname="Popup"/>
+    <container type="form" id="frmAdd" displayname="Form">
+        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
+        <component type="textbox2" id="txtCompany" displayname="TextBox2"/>
+        <component type="textbox2" id="txtMobile" displayname="TextBox2"/>
+        <component type="textbox2" id="txtEmail" displayname="TextBox2"/>
+        <component type="textbox2" id="txtHome" displayname="TextBox2"/>
+        <component type="textbox2" id="txtHomeDetail" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmContact" displayname="Form"/>
+    <container type="form" id="frmDeleteContact" displayname="Form">
+        <component type="textbox2" id="txtSearch" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmDetail" displayname="Form"/>
+    <container type="form" id="frmFindContact" displayname="Form">
+        <component type="textbox2" id="txtSearch" displayname="TextBox2"/>
+    </container>
+    <container type="form" id="frmHome" displayname="Form"/>
+    <globalsequences/>
+    <skins/>
+</application>
