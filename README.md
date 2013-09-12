@@ -3,7 +3,6 @@ DeviceContacts
 
 This application will showcase the features of Device Contact APIs
 
-Project Owner: Malla Nandikonda <Malla.Nandikonda@kony.com>
 
 # Purpose
 This Application will showcase the following features of Device Contact APIs
@@ -14,4 +13,7 @@ This Application will showcase the following features of Device Contact APIs
 * Get contact details
 
 # Supported platforms:
-iPhone, iPad, Android, Android tablet
+* iPhone
+* iPad
+* Android
+* Android tablet
