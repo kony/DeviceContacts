@@ -13,7 +13,10 @@ This Application will showcase the following features of Device Contact APIs
 * Get contact details
 
 # Supported platforms:
-* iPhone
-* iPad
-* Android
-* Android tablet
+**Mobile**
+ * Android
+ * iPhone
+
+**Tablet** 
+ * Anroid
+ * iPad
