@@ -14,9 +14,7 @@ This Application will showcase the following features of Device Contact APIs
 
 # Supported platforms:
 **Mobile**
- * Android
  * iPhone
 
 **Tablet** 
- * Anroid
  * iPad
