@@ -268,9 +268,9 @@ function onClickAddContact(){
 	frmContact.hbxFindContact.setVisibility(false);
 	frmContact.hbxDeleteContact.setVisibility(false);
 	frmContact.hbxContactDetail.setVisibility(false);
-	
-	frmContact.hbxHeaderAddContact.setVisibility(true);
-	frmContact.hbxHeaderSearch.setVisibility(false);
+	frmContact.hbxHeaderAddContact.setVisibility(false);
+	frmContact.txtSearchFind.setVisibility(false);
+	//frmContact.hbxHeaderSearch.setVisibility(false);
 	//frmContact.show();
 	
 }
@@ -279,9 +279,9 @@ function onclickFindContact(){
 	frmContact.hbxFindContact.setVisibility(true);
 	frmContact.hbxDeleteContact.setVisibility(false);
 	frmContact.hbxContactDetail.setVisibility(false);
-	
+	frmContact.txtSearchFind.setVisibility(true);
 	frmContact.hbxHeaderAddContact.setVisibility(false);
-	frmContact.hbxHeaderSearch.setVisibility(true);
+	//frmContact.hbxHeaderSearch.setVisibility(true);
 	//frmContact.txtSearchFind.setVisibility(true);
 	//frmContact.txtSearchDelete.setVisibility(false);
 	//frmContact.txtSearchFind.text = "";
@@ -294,8 +294,8 @@ function onClickRemoveContact(){
 	frmContact.hbxContactDetail.setVisibility(false);
 	
 	frmContact.hbxHeaderAddContact.setVisibility(false);
-	frmContact.hbxHeaderSearch.setVisibility(true);
-	//frmContact.txtSearchFind.setVisibility(false);
+	//frmContact.hbxHeaderSearch.setVisibility(true);
+	frmContact.txtSearchFind.setVisibility(true);
 	//frmContact.txtSearchDelete.setVisibility(true);
 	//frmContact.txtSearchDelete.text = "";
 	
