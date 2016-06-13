@@ -34,9 +34,11 @@ This Application will showcase the following features of Device Contact APIs
 # Supported platforms:
 **Mobile**
  * iPhone
+ * Android
 
 **Tablet** 
  * iPad
+ * Android Tablet
 
 
 **Supported Kony Visualizer Enterprise Version:** 7.0
