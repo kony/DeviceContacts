@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<application name="DeviceContacts" id="DeviceContacts">
-    <container type="dialog" id="hdrOne" displayname="Popup"/>
-    <container type="dialog" id="ftrOne" displayname="Popup"/>
-    <container type="form" id="frmAdd" displayname="Form">
-        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
-        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
-        <component type="textbox2" id="txtCompany" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMobile" displayname="TextBox2"/>
-        <component type="textbox2" id="txtEmail" displayname="TextBox2"/>
-        <component type="textbox2" id="txtHome" displayname="TextBox2"/>
-        <component type="textbox2" id="txtHomeDetail" displayname="TextBox2"/>
+<application id="DeviceContacts" name="DeviceContacts">
+    <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="ftrOne" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="ftrOne" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmContact" type="form">
+        <component displayname="TextBox2" id="txtSearchFind" type="textbox2"/>
+        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtCompany" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMobile" type="textbox2"/>
+        <component displayname="TextBox2" id="txtEmail" type="textbox2"/>
+        <component displayname="TextBox2" id="txtHome" type="textbox2"/>
+        <component displayname="TextBox2" id="txtHomeDetail" type="textbox2"/>
     </container>
-    <container type="form" id="frmContact" displayname="Form"/>
-    <container type="form" id="frmDeleteContact" displayname="Form">
-        <component type="textbox2" id="txtSearch" displayname="TextBox2"/>
+    <container isflex="false" displayname="Form" id="frmDetail" type="form"/>
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
+    <container isflex="false" displayname="Popup" id="hdrOne" type="dialog"/>
+    <container isflex="false" displayname="Popup" id="ftrOne" type="dialog"/>
+    <container isflex="false" displayname="Form" id="frmAdd" type="form">
+        <component displayname="TextBox2" id="txtFirstName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtLastName" type="textbox2"/>
+        <component displayname="TextBox2" id="txtCompany" type="textbox2"/>
+        <component displayname="TextBox2" id="txtMobile" type="textbox2"/>
+        <component displayname="TextBox2" id="txtEmail" type="textbox2"/>
+        <component displayname="TextBox2" id="txtHome" type="textbox2"/>
+        <component displayname="TextBox2" id="txtHomeDetail" type="textbox2"/>
     </container>
-    <container type="form" id="frmDetail" displayname="Form"/>
-    <container type="form" id="frmFindContact" displayname="Form">
-        <component type="textbox2" id="txtSearch" displayname="TextBox2"/>
+    <container isflex="false" displayname="Form" id="frmContact" type="form"/>
+    <container isflex="false" displayname="Form" id="frmDeleteContact" type="form">
+        <component displayname="TextBox2" id="txtSearch" type="textbox2"/>
     </container>
-    <container type="form" id="frmHome" displayname="Form"/>
-    <container type="dialog" id="hdrOne" displayname="Popup"/>
-    <container type="dialog" id="hdrOne" displayname="Popup"/>
-    <container type="dialog" id="hdrOne" displayname="Popup"/>
-    <container type="dialog" id="ftrOne" displayname="Popup"/>
-    <container type="dialog" id="ftrOne" displayname="Popup"/>
-    <container type="form" id="frmContact" displayname="Form">
-        <component type="textbox2" id="txtSearchFind" displayname="TextBox2"/>
-        <component type="textbox2" id="txtFirstName" displayname="TextBox2"/>
-        <component type="textbox2" id="txtLastName" displayname="TextBox2"/>
-        <component type="textbox2" id="txtCompany" displayname="TextBox2"/>
-        <component type="textbox2" id="txtMobile" displayname="TextBox2"/>
-        <component type="textbox2" id="txtEmail" displayname="TextBox2"/>
-        <component type="textbox2" id="txtHome" displayname="TextBox2"/>
-        <component type="textbox2" id="txtHomeDetail" displayname="TextBox2"/>
+    <container isflex="false" displayname="Form" id="frmDetail" type="form"/>
+    <container isflex="false" displayname="Form" id="frmFindContact" type="form">
+        <component displayname="TextBox2" id="txtSearch" type="textbox2"/>
     </container>
-    <container type="form" id="frmDetail" displayname="Form"/>
-    <container type="form" id="frmHome" displayname="Form"/>
+    <container isflex="false" displayname="Form" id="frmHome" type="form"/>
     <globalsequences/>
     <skins/>
 </application>
